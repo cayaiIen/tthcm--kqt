@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- 🎲 2. Lấy ngẫu nhiên 10 câu ---
     function getRandomQuestions() {
         const shuffled = [...questions].sort(() => Math.random() - 0.5);
-        return shuffled.slice(0, 20);
+        return shuffled.slice(0, 10);
     }
 
     // --- 🧱 3. Hiển thị quiz ---
