@@ -453,3 +453,12 @@ blockquote span {
         grid-template-columns: 1fr; /* 1 cột trên di động */
     }
 }
+
+.content-image {
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 8px;
+}
