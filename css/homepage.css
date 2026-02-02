@@ -1,7 +1,7 @@
 /* --- HERO SECTION (Trang chủ) --- */
 .hero-section {
     position: relative;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,4 +161,12 @@
     .hero-content p {
         font-size: 1.1rem;
     }
+}
+.hero-image {
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 8px;
 }
